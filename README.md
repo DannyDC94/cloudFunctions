@@ -9,13 +9,18 @@ Separación de responsabilidades para que cada accion este en su respectiva carp
 Entre las capas principales se tiene
 
 config: Archivo de configuracion inicial
+
 controllers: Logica de datos
+
 routes: Rutas para cada endpoint GET, POST, PUT, DELETE
+
 services: Conexion con la base de datos
+
 types: Interfaces de tareas y usuarios
 
 # Execute
 firebase emulators:start
+
 Node version 22.12.0
 
 
